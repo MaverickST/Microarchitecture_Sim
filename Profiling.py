@@ -115,6 +115,6 @@ def plot_results(results):
     plt.show()
 
 # Example usage
-base_dir = os.path.expanduser("~/SimTools/code_py")
+base_dir = os.path.expanduser("~/SimTools/code_py") # Adjust this path to your output folder
 results = process_output_folders(base_dir)
 plot_results(results)
